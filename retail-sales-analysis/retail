@@ -1,1 +1,52 @@
-Create Series and DataFrame objects, both by hand and by reading data files.
+This repository contains an Exploratory Data Analysis (EDA) of the Sales Data Sample dataset. The purpose of this analysis is to understand sales trends, customer behavior, product performance, 
+and revenue drivers across multiple countries.
+
+What the Dataset contains:
+The dataset contains transactional sales data with fields such as:
+ORDERNUMBER
+ORDERDATE
+QUANTITYORDERED
+PRICEEACH
+SALES
+PRODUCTLINE
+STATUS
+CUSTOMERNAME
+COUNTRY
+DEALSIZE
+
+Important steps:
+Perform data cleaning and preprocessing
+Explore sales trends across time
+Identify top-performing products and customers
+Understand deal sizes and customer behavior
+Analyze geographical revenue distribution
+Identify correlations and revenue drivers
+
+Data Cleaning Steps:
+Converted ORDERDATE to datetime
+Checked for missing values
+Removed duplicates
+Standardized column names
+Created new features:
+MONTH
+YEAR
+QUARTER
+DAY_OF_WEEK
+
+Key Visualisations:
+Sales over time
+Revenue by product line
+Top 10 customers by revenue
+Sales by country
+Deal size distribution
+Quantity vs Sales scatter plot
+Correlation heatmap
+
+Key Takeaways:
+Insights Summary
+Some product lines consistently outperform others
+Certain countries generate more revenue despite fewer transactions
+Deal size has a clear relationship with sales volume
+Sales show visible monthly/seasonal patterns
+Large purchase quantities show outliers that may indicate wholesale customers
+
