@@ -1,2 +1,31 @@
 This project predicts whether a customer is likely to churn using historical customer data.
 The goal is to help the Customer Value Management (CVM) team identify at-risk customers early.
+
+Business Problem
+Customer churn directly impacts revenue.
+Retaining existing customers is cheaper than acquiring new ones.
+This model helps prioritize retention campaigns.
+
+Dataset
+- Customer demographics
+- Contract details
+- Monthly charges
+- Tenure
+- Target variable: Churn (Yes/No)
+
+Approach
+1. Data cleaning & preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature encoding
+4. Train/Test split
+5. Logistic Regression model
+6. Model evaluation
+7. Business interpretation
+
+Model & Metrics
+- Model: Logistic Regression
+- Metrics used:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
